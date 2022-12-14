@@ -80,3 +80,21 @@ v) We can use js to print things on the web although it does not have any print 
     .ie
         <button onclick="window.print()">Print this page</button>
         
+# Chapter2
+1) Js Statements.
+    -A JavaScript program is a list of programming statements (JavaScript code).
+    -This statement tells the browser to write "Hello Dolly." inside an HTML element with id="demo":
+        eg. 
+            <script>
+                document.getElementById("demo").innerHTML = "Hello Dolly.";
+            </script>
+    i) Js Keywords
+    -var        :Declares a variable
+    -let	    :Declares a block variable
+    -const	    :Declares a block constant
+    -if	        :Marks a block of statements to be executed on a condition
+    -switch	    :Marks a block of statements to be executed in different cases
+    -for	    :Marks a block of statements to be executed in a loop
+    -function	:Declares a function
+    -return	    :Exits a function
+    -try	    :Implements error handling to a block of statements
