@@ -75,3 +75,8 @@ iv)Scripts can "display" data in different ways:
         <script>
             console.log(5 + 6);
         </script>
+
+v) We can use js to print things on the web although it does not have any print object or print methods.
+    .ie
+        <button onclick="window.print()">Print this page</button>
+        
